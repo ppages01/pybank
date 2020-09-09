@@ -33,14 +33,9 @@ with open("budget_data.csv") as csvfile:
                 min_date = row['Date']
             prev = current
 
-# remove the first value has no bearing on the calc and take length
-# diff_list.pop(0)
+
 divider = len(diff_list)
 avg = (sum(diff_list) / divider)
-
-# DONE - The average change in Profit/Losses over the entire period
-# DONE - The greatest increase in profits (date and amount) over the entire period
-# DONE - The greatest decrease in losses (date and amount) over the entire peroid
 
 with open("results.txt", 'w')as f:
     sys.stdout = f
