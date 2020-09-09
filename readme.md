@@ -1,4 +1,4 @@
-# Heading
+# Pybank
 A Python script for analyzing the financial records. Financial data called budget_data.csv. The dataset is composed of two columns: Date and Profit/Losses. ( the records are simple.)
 
 * Create a Python script that analyzes the records to calculate each of the following:
@@ -14,13 +14,7 @@ A Python script for analyzing the financial records. Financial data called budge
 * The greatest decrease in losses (date and amount) over the entire period
 
 * The output should look similar to the one below:
-Financial Analysis
-----------------------------
-Total Months: 86
-Total: $38382578
-Average  Change: $-2315.12
-Greatest Increase in Profits: Feb-2012 ($1926159)
-Greatest Decrease in Profits: Sep-2013 ($-2196167)
+<img src="output.jpg">
 
 
 In addition, your final script will both print the analysis to the terminal and export a text file with the results.
