@@ -14,7 +14,7 @@ A Python script for analyzing the financial records. Financial data called budge
 * The greatest decrease in losses (date and amount) over the entire period
 
 * The output should look similar to the one below:
-<img src="output.jpg">
+<img src="output.JPG">
 
 
 In addition, your final script will both print the analysis to the terminal and export a text file with the results.
